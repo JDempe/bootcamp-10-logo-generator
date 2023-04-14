@@ -1,0 +1,13 @@
+{
+  "name": "22-stu-modular-routing",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.1.5",
+    "jest": "^29.5.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
