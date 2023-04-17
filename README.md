@@ -30,7 +30,7 @@ The application uses the command line interface (CLI) to prompt the user for inf
 To use the application, follow these steps:
 
 1. Clone the repository to your local machine.
-2. Open the repository in your preferred code editor.
+2. From a command prompt, navigate to the repositories root folder.
 3. From the root folder, run the command 'npm install' in your terminal to install dependencies.
 4. (Optional) From the root folder, run the command 'npm test' in your terminal to run the tests.
 5. From the root folder, run the command 'npm start' in your terminal to start the application.
