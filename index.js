@@ -7,12 +7,12 @@ const fs = require("fs");
 
 // Import custom classes
 // Answer validation class
-const { answerValidation } = require("./lib/answerValidation");
-const answerValidation = new answerValidation();
+const AnswerValidation = require("./lib/answerValidation");
+const answerValidation = new AnswerValidation();
 
 // Shape classes
 const { Square, Triangle, Circle } = require("./lib/shapes");
-const { Text } = require("./lib/text");
+const Text = require("./lib/text");
 
 const questions = [
   {
@@ -45,6 +45,7 @@ const questions = [
 
 inquirer.prompt(questions).then((answers) => {
   // Display Results
+  console.log("Your logo will look like this: ")
   console.log(answers);
 
   // Determine which shape was selected and create the shape class
@@ -63,7 +64,7 @@ inquirer.prompt(questions).then((answers) => {
       break;
   }
 
-  //   Create text class for rendering text
+  // Create text class for rendering text
   const text = new Text(answers.text, answers.textColor);
 
   const finalSVG = `<svg width="300" height="200" style="background-color:white">
