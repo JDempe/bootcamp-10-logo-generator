@@ -40,7 +40,8 @@ The output will be a file called 'logo.svg' in the root folder of the project.  
 
 Below is a video of the application being used.
 
-<p align="center"><video src="" controls="controls" style="max-width: 720px;"></video><p>
+<p align="center"><video src="https://user-images.githubusercontent.com/123279032/232628642-56a82a2f-5111-409d-8733-b4e26c4bc1ee.mp4
+" controls="controls" style="max-width: 720px;"></video><p>
 
 And this is the output from the above video.
 
