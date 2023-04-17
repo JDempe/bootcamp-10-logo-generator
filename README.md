@@ -38,6 +38,8 @@ To use the application, follow these steps:
 
 The output will be a file called 'logo.svg' in the root folder of the project.  The file can be opened in any browser to render.  Be careful, running the application again will overwrite this file!
 
+### Example
+
 Below is a video of the application being used.
 
 <p align="center"><video src="https://user-images.githubusercontent.com/123279032/232628642-56a82a2f-5111-409d-8733-b4e26c4bc1ee.mp4
