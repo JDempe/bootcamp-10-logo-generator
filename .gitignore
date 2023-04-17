@@ -48,7 +48,11 @@ $RECYCLE.BIN/
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,windows
 
+
 # NODE
 node_modules/
 .env
 package-lock.json
+
+# Project Specific
+logo.svg
