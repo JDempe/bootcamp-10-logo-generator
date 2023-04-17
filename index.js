@@ -67,7 +67,7 @@ inquirer.prompt(questions).then((answers) => {
   // Create text class for rendering text
   const text = new Text(answers.text, answers.textColor);
 
-  const finalSVG = `<svg width="300" height="200" style="background-color:white">
+  const finalSVG = `<svg width="300" height="200" style="background-color:white" version="1.1" xmlns="http://www.w3.org/2000/svg">
    ${shape.render()}
    ${text.render()}
    </svg>`;
